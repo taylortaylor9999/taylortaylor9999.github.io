@@ -1,0 +1,90 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+  font-size: 5em;
+  font-family: 'Dancing Script', cursive;
+  color: #ff2424;
+}
+
+header h1:hover {
+  color:#0000cc;
+  background-color: #ff66ff;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+  font-size: 2em;
+  text-align: center;
+  color: #a400b9;
+}
+
+header p:active {
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+
+.jumbotron {
+  background-image: url('pushpavalli.jpg');
+  background-color: yellow;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  margin-bottom: 0;
+}
+
+.woof {
+  display: flex;
+  justify-content: center;
+}
+
+.lingerie {
+  font-size: 1.5em;
+  border: 3px solid #ff0000; 
+  padding: 0 10px;
+  border-radius: 6px;
+  color: #000000;
+}
+
+.lingerie:hover {
+  background: #ff0000;
+  color: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 6px;
+}
+
+.lingerie:active {
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+
+.hifi {
+  height: 100px;
+}
+
+footer .row {
+  margin-top: 50px;
+}
+
